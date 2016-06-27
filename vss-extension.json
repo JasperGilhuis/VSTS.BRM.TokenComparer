@@ -1,0 +1,85 @@
+{
+  "manifestVersion": 1,
+  "id": "JasperGilhuis-Xpirit-VSTS-BRM-TokenComparer",
+  "name": "Token Comparer",
+  "version": "0.0.1",
+  "publisher": "jaspergilhuis",
+  "public": true,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Release Extension that allows you to compare source files containing Tokens and compare the outcome to defined Variables in your Release Definition.",
+  "categories": [
+    "Build and release"
+  ],
+  "tags": [
+    "powershell",
+    "release",
+    "compare",
+    "token",
+    "configuration",
+    "validation"
+  ],
+  "screenshots": [
+    {
+      "path": "VSTS.BRM.TokenComparer.extension/images/screenshots/Token-Comparer-Settings.png"
+    },
+    {
+      "path": "VSTS.BRM.TokenComparer.extension/images/screenshots/Token-Release-Failure.png"
+    },
+   {
+      "path": "VSTS.BRM.TokenComparer.extension/images/screenshots/Token-Release-Warning.png"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "VSTS.BRM.TokenComparer.extension/readme.md"
+    },
+    "license": {
+      "path": "VSTS.BRM.TokenComparer.extension/license.txt"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/JasperGilhuis/VSTS.BRM.TokenComparer/wiki"
+    },
+    "support": {
+      "uri": "https://github.com/JasperGilhuis/VSTS.BRM.TokenComparer/issues"
+    },
+    "company": {
+      "uri": "https://www.xpirit.com"
+    },
+    "blog": {
+      "uri": "https://jaspergilhuis.nl"
+    }
+  },
+  "branding": {
+    "color": "#F9F9F9",
+    "theme": "light"
+  },
+  "icons": {
+    "default": "VSTS.BRM.TokenComparer.extension/images/extension-icon.png"
+  },
+  "files": [
+    {
+      "path": "VSTS.BRM.TokenComparer",
+      "addressable": true
+    },
+    {
+      "path": "VSTS.BRM.TokenComparer.extension/images",
+      "addressable": true
+    }
+  ],
+  "contributions": [
+    {
+      "id": "VSTS.BRM.TokenComparer",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [ "ms.vss-distributed-task.tasks" ],
+      "properties": {
+        "name": "VSTS.BRM.TokenComparer"
+      }
+    }
+  ]
+}

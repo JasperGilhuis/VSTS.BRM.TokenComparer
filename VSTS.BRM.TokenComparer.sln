@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extension Root", "Extension Root", "{6C351E1D-2ED2-48F9-9450-DDB09E920576}"
+	ProjectSection(SolutionItems) = preProject
+		vss-extension.json = vss-extension.json
+	EndProjectSection
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "VSTS.BRM.TokenComparer", "VSTS.BRM.TokenComparer\VSTS.BRM.TokenComparer.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TokenComparer.extension", "TokenComparer.extension", "{6551E6F1-1D65-4134-B574-16F06E22707A}"
+	ProjectSection(SolutionItems) = preProject
+		VSTS.BRM.TokenComparer.extension\license.txt = VSTS.BRM.TokenComparer.extension\license.txt
+		VSTS.BRM.TokenComparer.extension\readme.md = VSTS.BRM.TokenComparer.extension\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{5AC6438A-8BC5-48E5-A91F-ED9B79246981}"
+	ProjectSection(SolutionItems) = preProject
+		VSTS.BRM.TokenComparer.extension\images\extension-icon.png = VSTS.BRM.TokenComparer.extension\images\extension-icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshots", "screenshots", "{FD2CF7E4-179B-4BE9-9B22-A1464C7661D8}"
+	ProjectSection(SolutionItems) = preProject
+		VSTS.BRM.TokenComparer.extension\images\screenshots\Token-Comparer-Settings.png = VSTS.BRM.TokenComparer.extension\images\screenshots\Token-Comparer-Settings.png
+		VSTS.BRM.TokenComparer.extension\images\screenshots\Token-Release-Failure.png = VSTS.BRM.TokenComparer.extension\images\screenshots\Token-Release-Failure.png
+		VSTS.BRM.TokenComparer.extension\images\screenshots\Token-Release-Warning.png = VSTS.BRM.TokenComparer.extension\images\screenshots\Token-Release-Warning.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AC6438A-8BC5-48E5-A91F-ED9B79246981} = {6551E6F1-1D65-4134-B574-16F06E22707A}
+		{FD2CF7E4-179B-4BE9-9B22-A1464C7661D8} = {5AC6438A-8BC5-48E5-A91F-ED9B79246981}
+	EndGlobalSection
+EndGlobal
